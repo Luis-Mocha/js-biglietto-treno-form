@@ -1,0 +1,27 @@
+
+body {
+    background-color: rgb(185,20,80);
+}
+
+form {
+    background-color: white;
+    color: rgb(185,20,80);
+    font-size: larger;
+}
+
+#reset-button {
+    font-size: 13px;
+}
+
+@media screen and (min-width: 992px) {
+    form {
+        width: 80%;
+    }
+    #ticketDiv {
+        width: 80%;
+    }
+}
+
+#reset-button {
+    font-size: 13px;
+}
