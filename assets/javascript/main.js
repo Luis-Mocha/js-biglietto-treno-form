@@ -126,6 +126,10 @@ form.addEventListener('submit', function (invioForm) {
 
     displayPrice();
 
+    // animazione treno brutta 
+    let trenoAnimation = document.querySelector('#treno-animation')
+    trenoAnimation.classList.remove('d-none')
+
 });
 
 
